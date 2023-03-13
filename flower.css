@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(42,61,129);
+}
+.bigcircle{
+    background-color:rgb(108,147,204);
+    height: 58vmin;
+    width: 58vmin;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20vh;
+}
+.sidecirclediv{
+    display:flex;
+    /* width: 80vmin;
+    margin: auto; */
+
+}
+.sidecircle{
+    background-color: transparent;
+    /* background-color: red; */
+    height:40vmin;
+    width: 40vmin;
+    border-radius: 50%;
+    border:5vmin solid rgb(42,61,129);
+    transform: translate(23.5vw,-53vh);
+}
+.sidecircle:nth-child(1){
+    transform: translate(24vw,-53vh);
+}
+.sidecircle:nth-child(2){
+    transform: translate(22vw,-53vh);
+}
+.topcirclediv{
+}
+.topcircle{
+    background-color: transparent;
+    /* background-color: red; */
+    height:40vmin;
+    width: 40vmin;
+    border-radius: 50%;
+    border:5vmin solid rgb(42,61,129);
+    /* transform: translate(36vw,-127vh); */
+}
+.topcircle:nth-child(1){
+    transform: translate(36vw,-124vh);
+}
+.topcircle:nth-child(2){
+    transform: translate(36vw,-130vh);
+}
